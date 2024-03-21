@@ -1,0 +1,3 @@
+[submodule "nuclei-sdk"]
+	path = nuclei-sdk
+	url = https://github.com/Nuclei-Software/nuclei-sdk.git
