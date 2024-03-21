@@ -1,11 +1,10 @@
 install `usbipd` using instructions at https://learn.microsoft.com/en-us/windows/wsl/connect-usb 
 pre-requisites:
 ```
+export Development=$HOME/path/to/development/directory
 [sudo]
-    apt-get install make
-    apt-get install libtinfo5 libncursesw5
+    apt-get install make libtinfo5 libncursesw5 minicom
     apt install usbutils
-    apt-get install minicom
 ```
 Setup Nuclei Development Environment:
 ```
